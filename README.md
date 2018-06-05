@@ -11,7 +11,7 @@ All files          |      88.1 |     77.78 |     78.57 |      88.1 |
 -------------------|-----------|-----------|-----------|-----------|
 ```
 
-- Statement coverage: has each statement in the program been executed?
+- Statement coverage: has each statement in the program been executed? __`z = x + y; // Statement 4`__
 - Branch coverage: has each branch (also called DD-path) of each control structure (such as in if and case statements) been executed? (For example, given an if statement, have both the true and false branches been executed? Another way of saying this is, has every edge in the program been executed?)
 - Function coverage: has each function (or subroutine) in the program been called?
 - Line coverage: has each executable line in the source file been executed?
