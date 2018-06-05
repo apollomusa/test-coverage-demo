@@ -18,11 +18,4 @@ All files          |      88.1 |     77.78 |     78.57 |      88.1 |
 
 For each case, the percentage represents executed code vs not-executed code, which equals each fraction in percent format (e.g: 50% branches, 1/2).
 
-1.  create `test.js` with code: `x = 42; if(false) x =-1;`
-2.  from `root` run `node ./node_modules/.bin/istanbul cover src/test.js`
-3.  Open coverage report:
-
-- we only get 66.67% coverage because the only 2/3 of the code is being run
-- the 3rd line never gets executed because false is always false!
-
 sources: [Learn Istanbul](https://github.com/dwyl/learn-istanbul)
